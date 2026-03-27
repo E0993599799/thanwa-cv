@@ -618,9 +618,17 @@
     }
 
     @media print {
+      * {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+
       body {
         background: #ffffff;
         line-height: 1.28;
+        overflow-wrap: anywhere;
+        word-break: normal;
+        hyphens: auto;
       }
 
       .shell {
@@ -642,6 +650,8 @@
         background: #ffffff;
         box-shadow: none;
         border: 1px solid #d9d3ca;
+        break-inside: avoid;
+        page-break-inside: avoid;
       }
 
       .hero {
@@ -689,19 +699,87 @@
         grid-template-columns: 145px 1fr;
         gap: 8px;
         padding: 8px 0;
+        align-items: start;
+      }
+
+      .hero-copy,
+      .section-kicker,
+      .timeline-copy,
+      .meta-value,
+      .contact-value,
+      .quote,
+      .quote-block p,
+      .availability-note,
+      p,
+      li,
+      a,
+      span {
+        overflow-wrap: anywhere;
+        word-break: normal;
+        hyphens: auto;
+      }
+
+      .button-row,
+      .pillbox,
+      .hero-meta,
+      .stats,
+      .contact-list,
+      .feature-list {
+        gap: 6px;
+      }
+
+      .pillbox {
+        align-items: flex-start;
+      }
+
+      .pill {
+        white-space: normal;
+        text-align: center;
+        line-height: 1.15;
+        padding-top: 3px;
+        padding-bottom: 3px;
+      }
+
+      .contact-item {
+        grid-template-columns: 1fr;
+        align-items: start;
+      }
+
+      .contact-value {
+        text-align: left;
+      }
+
+      .meta-card,
+      .stat,
+      .feature,
+      .mini-item,
+      .contact-item {
+        min-width: 0;
+      }
+
+      .timeline-company,
+      .timeline-role,
+      .timeline-period,
+      .meta-label,
+      .contact-label {
+        word-break: keep-all;
+        hyphens: none;
       }
 
       h1 {
         font-size: 24pt;
+        line-height: 0.96;
       }
 
       h2 {
         font-size: 9pt;
+        line-height: 1.05;
       }
 
       h3,
       .timeline-role {
         font-size: 10.5pt;
+        line-height: 1.08;
       }
 
       p,
@@ -711,11 +789,28 @@
       .meta-value,
       .quote-block p {
         font-size: 8.2pt;
+        line-height: 1.26;
       }
 
       .pill {
         min-height: 22px;
         font-size: 7pt;
+      }
+
+      .timeline-company {
+        font-size: 7.4pt;
+      }
+
+      .timeline-period,
+      .meta-label,
+      .contact-label {
+        font-size: 6pt;
+        letter-spacing: 0.08em;
+      }
+
+      .portrait-frame::after,
+      .hero::before {
+        display: none;
       }
 
       .portrait-badge {
