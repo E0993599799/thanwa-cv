@@ -3,249 +3,937 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Thanwa Rachatamethakorn | Medical Aesthetics CV</title>
+  <title>Thanwa Rachatamethakorn | Medical Science Liaison</title>
   <meta
     name="description"
-    content="Thanwa Rachatamethakorn - Medical Science Liaison profile with experience in medical aesthetics, key account management, scientific communication, and premium brand-facing business development."
+    content="Executive profile of Thanwa Rachatamethakorn, Medical Science Liaison with experience in medical aesthetics, scientific communication, KOL engagement, portfolio growth, and premium wellness brands."
   />
   <style>
     :root {
-      --bg: #0f1115;
-      --panel: #171a21;
-      --soft: #20242d;
-      --text: #f5f7fb;
-      --muted: #b9c0cc;
-      --line: #2d3340;
-      --accent: #d9b38c;
+      --bg: #f4efe7;
+      --bg-strong: #e8dfd1;
+      --paper: rgba(255, 252, 247, 0.9);
+      --paper-strong: #fffdfa;
+      --ink: #18211d;
+      --muted: #5d675f;
+      --line: rgba(24, 33, 29, 0.12);
+      --line-strong: rgba(24, 33, 29, 0.2);
+      --forest: #163c37;
+      --forest-soft: #d7e7e1;
+      --gold: #9f7a45;
+      --gold-soft: rgba(159, 122, 69, 0.14);
+      --shadow: 0 24px 80px rgba(38, 33, 25, 0.12);
+      --radius-xl: 30px;
+      --radius-lg: 24px;
+      --radius-md: 18px;
+      --container: 1160px;
     }
-    * { box-sizing: border-box; }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
     body {
       margin: 0;
-      font-family: Inter, Arial, Helvetica, sans-serif;
-      background: linear-gradient(180deg, #0f1115 0%, #141821 100%);
-      color: var(--text);
-      line-height: 1.6;
+      color: var(--ink);
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.65;
+      background:
+        radial-gradient(circle at top left, rgba(159, 122, 69, 0.18), transparent 28%),
+        radial-gradient(circle at top right, rgba(22, 60, 55, 0.16), transparent 24%),
+        linear-gradient(180deg, #f7f3ed 0%, #f3ede3 42%, #ede4d8 100%);
     }
-    .wrap {
-      max-width: 980px;
-      margin: 0 auto;
-      padding: 40px 20px 72px;
+
+    a {
+      color: inherit;
+      text-decoration: none;
     }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    .shell {
+      width: min(calc(100% - 28px), var(--container));
+      margin: 18px auto 56px;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 18px;
+      padding: 16px 18px;
+      margin-bottom: 18px;
+      background: rgba(255, 252, 247, 0.76);
+      border: 1px solid rgba(255, 255, 255, 0.65);
+      border-radius: 999px;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 10px 32px rgba(42, 34, 25, 0.08);
+      position: sticky;
+      top: 10px;
+      z-index: 10;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 0.94rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--forest);
+    }
+
+    .brand-mark {
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      background: linear-gradient(135deg, var(--forest), #2d5f57);
+      color: #f6efe5;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+
+    .nav-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+
+    .button-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      min-height: 48px;
+      padding: 0 18px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: var(--paper-strong);
+      color: var(--ink);
+      transition: transform 140ms ease, box-shadow 140ms ease, border-color 140ms ease;
+    }
+
+    .button:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 14px 28px rgba(38, 33, 25, 0.08);
+      border-color: var(--line-strong);
+    }
+
+    .button-primary {
+      background: linear-gradient(135deg, var(--forest), #2c5b54);
+      border-color: rgba(22, 60, 55, 0.25);
+      color: #f8f3eb;
+    }
+
     .hero {
-      background: linear-gradient(135deg, rgba(217,179,140,.12), rgba(255,255,255,.02));
-      border: 1px solid var(--line);
-      border-radius: 22px;
-      padding: 32px;
-      box-shadow: 0 18px 50px rgba(0,0,0,.28);
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 24px;
+      padding: 30px;
+      background: rgba(255, 251, 245, 0.72);
+      border: 1px solid rgba(255, 255, 255, 0.66);
+      border-radius: calc(var(--radius-xl) + 8px);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      position: relative;
     }
-    h1 { margin: 0 0 10px; font-size: 40px; letter-spacing: -.02em; }
-    h2 { font-size: 22px; margin: 34px 0 14px; }
-    h3 { font-size: 18px; margin: 0 0 6px; }
-    p, li { color: var(--muted); }
-    .tagline { color: var(--accent); font-weight: 600; }
-    .meta { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 14px; color: var(--muted); }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 24px auto auto 24px;
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(159, 122, 69, 0.12), transparent 70%);
+      pointer-events: none;
+    }
+
+    .hero-panel,
+    .card,
     .section {
-      margin-top: 22px;
-      background: var(--panel);
-      border: 1px solid var(--line);
-      border-radius: 20px;
-      padding: 26px;
+      background: var(--paper);
+      border: 1px solid rgba(255, 255, 255, 0.72);
+      box-shadow: 0 18px 60px rgba(40, 32, 23, 0.08);
     }
-    .grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: 20px; }
-    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
-    .item { padding: 18px 0; border-top: 1px solid var(--line); }
-    .item:first-child { border-top: 0; padding-top: 0; }
-    .role { color: var(--text); font-weight: 700; }
-    .period { color: var(--accent); font-size: 14px; }
-    .pillbox { display:flex; flex-wrap:wrap; gap:10px; }
+
+    .hero-panel {
+      border-radius: var(--radius-xl);
+      padding: 38px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 16px;
+      border-radius: 999px;
+      background: var(--gold-soft);
+      color: var(--gold);
+      font-size: 0.82rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      margin: 0;
+      font-weight: 700;
+      line-height: 1;
+    }
+
+    h1 {
+      margin-top: 18px;
+      font-size: clamp(3rem, 8vw, 5.6rem);
+      letter-spacing: -0.05em;
+      max-width: 9ch;
+    }
+
+    .hero-subtitle {
+      margin: 16px 0 0;
+      color: var(--forest);
+      font-size: 1.2rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+
+    .hero-copy {
+      max-width: 58ch;
+      margin: 22px 0 0;
+      font-size: 1.04rem;
+      color: var(--muted);
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 28px;
+    }
+
+    .hero-meta {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 28px;
+    }
+
+    .hero-meta .meta-card {
+      padding: 16px 18px;
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.78);
+      border: 1px solid rgba(24, 33, 29, 0.08);
+    }
+
+    .meta-label {
+      display: block;
+      margin-bottom: 5px;
+      font-size: 0.78rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--gold);
+    }
+
+    .meta-value {
+      color: var(--ink);
+      font-size: 1rem;
+      line-height: 1.45;
+    }
+
+    .hero-side {
+      display: grid;
+      gap: 18px;
+      align-content: start;
+      position: relative;
+      z-index: 1;
+    }
+
+    .card {
+      border-radius: var(--radius-xl);
+      padding: 28px;
+    }
+
+    .card h2,
+    .section-head h2 {
+      font-size: 0.92rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 16px;
+    }
+
+    .quote {
+      font-size: 1.22rem;
+      line-height: 1.75;
+      color: var(--ink);
+    }
+
+    .quote strong {
+      color: var(--forest);
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .stat {
+      padding: 16px 18px;
+      border-radius: 18px;
+      background: linear-gradient(180deg, rgba(22, 60, 55, 0.06), rgba(159, 122, 69, 0.07));
+      border: 1px solid rgba(24, 33, 29, 0.08);
+    }
+
+    .stat strong {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--forest);
+      font-size: 1.18rem;
+    }
+
+    .stack,
+    .section-stack {
+      display: grid;
+      gap: 22px;
+      margin-top: 22px;
+    }
+
+    .section {
+      padding: 30px;
+      border-radius: var(--radius-xl);
+    }
+
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      gap: 20px;
+      margin-bottom: 22px;
+    }
+
+    .section-kicker {
+      color: var(--muted);
+      max-width: 52ch;
+    }
+
+    .grid {
+      display: grid;
+      gap: 22px;
+    }
+
+    .grid-2 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .grid-3 {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .panel {
+      padding: 22px;
+      border-radius: var(--radius-lg);
+      background: rgba(255, 255, 255, 0.72);
+      border: 1px solid var(--line);
+    }
+
+    .panel h3 {
+      font-size: 1.3rem;
+      line-height: 1.15;
+      margin-bottom: 10px;
+    }
+
+    .panel p,
+    .panel li,
+    .timeline-copy,
+    .muted {
+      color: var(--muted);
+    }
+
+    .pillbox {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
     .pill {
-      border:1px solid var(--line);
-      background: var(--soft);
-      color: var(--text);
+      display: inline-flex;
+      align-items: center;
+      min-height: 40px;
+      padding: 0 14px;
+      border-radius: 999px;
+      background: var(--paper-strong);
+      border: 1px solid var(--line);
+      color: var(--ink);
+      font-size: 0.94rem;
+    }
+
+    .timeline {
+      display: grid;
+      gap: 18px;
+    }
+
+    .timeline-item {
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      gap: 20px;
+      padding: 22px 0;
+      border-top: 1px solid rgba(24, 33, 29, 0.1);
+    }
+
+    .timeline-item:first-child {
+      padding-top: 0;
+      border-top: 0;
+    }
+
+    .timeline-company {
+      color: var(--forest);
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .timeline-role {
+      font-size: 1.28rem;
+      margin-bottom: 8px;
+    }
+
+    .timeline-period {
+      display: inline-flex;
       padding: 8px 12px;
       border-radius: 999px;
-      font-size: 14px;
+      background: var(--gold-soft);
+      color: var(--gold);
+      font-size: 0.82rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      font-weight: 700;
     }
-    ul { padding-left: 18px; margin: 10px 0 0; }
-    a { color: #f2d2b4; text-decoration: none; }
-    .quote {
+
+    ul {
+      margin: 12px 0 0;
+      padding-left: 20px;
+    }
+
+    li + li {
+      margin-top: 8px;
+    }
+
+    .feature-list {
+      display: grid;
+      gap: 12px;
+    }
+
+    .feature {
+      padding: 16px 18px;
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.74);
+      border: 1px solid var(--line);
+    }
+
+    .feature strong {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--forest);
+    }
+
+    .footer-card {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 20px;
+      align-items: stretch;
+    }
+
+    .contact-list {
+      display: grid;
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .contact-item {
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
+      padding: 14px 16px;
+      border-radius: 16px;
+      background: rgba(255, 255, 255, 0.72);
+      border: 1px solid var(--line);
+    }
+
+    .contact-label {
+      color: var(--gold);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      font-size: 0.76rem;
+      font-weight: 700;
+    }
+
+    .contact-value {
+      color: var(--ink);
+      text-align: right;
+      word-break: break-word;
+    }
+
+    .availability {
+      display: grid;
+      gap: 14px;
+      align-content: start;
+    }
+
+    .availability-note {
       margin: 0;
-      padding: 18px 20px;
-      border-left: 3px solid var(--accent);
-      background: rgba(217,179,140,.08);
-      border-radius: 14px;
-      color: var(--text);
+      padding: 18px;
+      border-radius: 18px;
+      background: linear-gradient(180deg, rgba(22, 60, 55, 0.09), rgba(159, 122, 69, 0.08));
+      border: 1px solid rgba(24, 33, 29, 0.08);
+      color: var(--ink);
     }
-    @media (max-width: 760px) {
-      .grid, .grid-3 { grid-template-columns: 1fr; }
-      h1 { font-size: 30px; }
-      .hero, .section { padding: 22px; border-radius: 18px; }
+
+    .footer {
+      margin-top: 22px;
+      color: var(--muted);
+      font-size: 0.92rem;
+      text-align: center;
+    }
+
+    @media (max-width: 980px) {
+      .hero,
+      .footer-card,
+      .grid-2,
+      .grid-3,
+      .timeline-item,
+      .hero-meta {
+        grid-template-columns: 1fr;
+      }
+
+      .section-head {
+        align-items: start;
+        flex-direction: column;
+      }
+
+      .nav {
+        border-radius: 28px;
+        align-items: start;
+        flex-direction: column;
+      }
+    }
+
+    @media (max-width: 680px) {
+      .shell {
+        width: min(calc(100% - 16px), var(--container));
+        margin-top: 10px;
+      }
+
+      .hero,
+      .hero-panel,
+      .card,
+      .section {
+        padding: 22px;
+        border-radius: 22px;
+      }
+
+      h1 {
+        font-size: 2.75rem;
+        max-width: none;
+      }
+
+      .button,
+      .contact-item {
+        width: 100%;
+      }
+
+      .contact-item {
+        flex-direction: column;
+      }
     }
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <section class="hero">
-      <div class="tagline">Medical • Aesthetics • Fashion-Forward Brand Presence</div>
-      <h1>Thanwa Rachatamethakorn</h1>
-      <p><strong>Medical Science Liaison (MSL)</strong> with experience in aesthetic medicine, scientific communication, product launches, KOL engagement, and premium client experience.</p>
-      <div class="meta">
-        <span>Bangkok, Thailand</span>
-        <span><a href="mailto:yubkk1991@gmail.com">yubkk1991@gmail.com</a></span>
-        <span><a href="https://www.linkedin.com/in/thanwa-rachatamethakorn-39a5231b1/">LinkedIn Profile</a></span>
+  <main class="shell">
+    <nav class="nav">
+      <div class="brand">
+        <div class="brand-mark">TR</div>
+        <span>Medical Affairs Portfolio</span>
       </div>
+      <div class="nav-links">
+        <a href="#experience">Experience</a>
+        <a href="#strengths">Strengths</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-panel">
+        <div class="eyebrow">Medical Affairs • Aesthetic Business • Premium Wellness</div>
+        <h1>Thanwa Rachatamethakorn</h1>
+        <p class="hero-subtitle">Medical Science Liaison | Medical Aesthetics | Business Development</p>
+        <p class="hero-copy">
+          Results-driven medical aesthetics professional with experience spanning scientific communication,
+          key account leadership, product launch support, KOL engagement, and premium client experience.
+          Brings a profile that blends medical credibility with refined commercial instinct for aesthetic,
+          wellness, and beauty-led healthcare brands.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="mailto:yubkk1991@gmail.com">Contact via Email</a>
+          <a class="button" href="https://www.linkedin.com/in/thanwa-rachatamethakorn-39a5231b1/" target="_blank" rel="noreferrer">Open LinkedIn</a>
+        </div>
+        <div class="hero-meta">
+          <div class="meta-card">
+            <span class="meta-label">Base</span>
+            <span class="meta-value">Bangkok, Thailand</span>
+          </div>
+          <div class="meta-card">
+            <span class="meta-label">Current Role</span>
+            <span class="meta-value">Medical Science Liaison at KEY AESTHETICS LIMITED</span>
+          </div>
+          <div class="meta-card">
+            <span class="meta-label">Sector Focus</span>
+            <span class="meta-value">Medical aesthetics, physician engagement, premium wellness brands</span>
+          </div>
+        </div>
+      </div>
+
+      <aside class="hero-side">
+        <section class="card">
+          <h2>Brand Positioning</h2>
+          <p class="quote">
+            <strong>Medical x Fashion x Trust</strong><br />
+            Precise medical communication, polished brand sensibility, and relationship-led execution for aesthetic markets.
+          </p>
+        </section>
+
+        <section class="card">
+          <h2>At A Glance</h2>
+          <div class="stats">
+            <div class="stat">
+              <strong>3 months</strong>
+              <span class="muted">to promotion at Aestema Group</span>
+            </div>
+            <div class="stat">
+              <strong>6 brands</strong>
+              <span class="muted">across fillers, injectables, and aesthetic portfolio support</span>
+            </div>
+            <div class="stat">
+              <strong>North Thailand</strong>
+              <span class="muted">territory and medical school account coverage</span>
+            </div>
+            <div class="stat">
+              <strong>Multi-setting</strong>
+              <span class="muted">private clinic, academic, and government hospital exposure</span>
+            </div>
+          </div>
+        </section>
+      </aside>
     </section>
 
-    <div class="grid">
+    <div class="section-stack">
       <section class="section">
-        <h2>Profile</h2>
-        <p>Results-driven professional who combines scientific credibility, market understanding, and premium relationship management to support product adoption and business growth in the aesthetic industry. Strong in translating complex medical aesthetic information into clear and client-focused value.</p>
-        <p>Experience spans medical affairs, key account management, product specialization, launch support, and healthcare-facing relationship development across aesthetics and clinical environments.</p>
+        <div class="section-head">
+          <div>
+            <h2>Executive Summary</h2>
+          </div>
+          <p class="section-kicker">
+            Suitable for Medical Science Liaison, Scientific Affairs, Clinical Education, Key Account,
+            and premium aesthetic brand development roles.
+          </p>
+        </div>
+        <div class="grid grid-2">
+          <article class="panel">
+            <h3>Commercially sharp, medically grounded</h3>
+            <p>
+              Thanwa translates complex medical aesthetic knowledge into clear, usable, client-focused value.
+              His profile spans scientific presentations, workshops, product positioning, adoption support, and long-term stakeholder trust.
+            </p>
+          </article>
+          <article class="panel">
+            <h3>Built for premium market environments</h3>
+            <p>
+              His working style combines structure, active listening, and polished relationship management,
+              making him a strong fit for aesthetic medicine, wellness-led healthcare, and luxury-adjacent beauty brands.
+            </p>
+          </article>
+        </div>
       </section>
+
+      <section class="section" id="experience">
+        <div class="section-head">
+          <div>
+            <h2>Professional Experience</h2>
+          </div>
+          <p class="section-kicker">
+            Progression across medical affairs, key accounts, specialist product growth, and healthcare-facing client management.
+          </p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div>
+              <div class="timeline-company">KEY AESTHETICS LIMITED</div>
+              <div class="timeline-role">Medical Science Liaison</div>
+              <div class="timeline-period">Jul 2025 - Present</div>
+            </div>
+            <div class="timeline-copy">
+              Supports aesthetic business growth through scientific communication, customer insight, and premium stakeholder engagement.
+              Brings structured thinking and detail orientation to fast-paced medical aesthetics and wellness environments.
+              <ul>
+                <li>Translates medical aesthetic knowledge into clear, relevant, client-focused solutions.</li>
+                <li>Strengthens trust across diverse stakeholders while supporting performance optimization and long-term relationship growth.</li>
+                <li>Represents a medically credible and commercially aware voice inside a premium aesthetic setting.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div>
+              <div class="timeline-company">KEY AESTHETICS LIMITED</div>
+              <div class="timeline-role">Key Account Manager</div>
+              <div class="timeline-period">Mar 2025 - Jul 2025</div>
+            </div>
+            <div class="timeline-copy">
+              Managed key accounts across Northern Thailand and medical school relationships for an aesthetic portfolio that required both scientific credibility and commercial execution.
+              <ul>
+                <li>Covered JALOR HA Dermal Filler, Oxelle Halyx 40 mg, and JALOR Re-Style.</li>
+                <li>Delivered scientific product presentations and supported TALM workshops, webinars, lectures, and training for healthcare professionals.</li>
+                <li>Built relationships with KOLs and medical faculty to strengthen clinical confidence and long-term partnership.</li>
+                <li>Supported product listing and Oxelle adoption within government hospitals.</li>
+                <li>Contributed market feedback and launch support for broader portfolio planning.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div>
+              <div class="timeline-company">Aestema Group</div>
+              <div class="timeline-role">Product Specialist</div>
+              <div class="timeline-period">Jan 2023 - Feb 2025</div>
+            </div>
+            <div class="timeline-copy">
+              Advanced into specialist responsibility quickly through product expertise and strong field execution in aesthetic medicine.
+              <ul>
+                <li>Promoted within 3 months based on performance and deep product knowledge.</li>
+                <li>Helped grow EPTQ market share through technical communication and strategic product positioning.</li>
+                <li>Consistently exceeded sales targets through negotiation, relationship management, and customer-focused selling.</li>
+                <li>Supported launch-phase introduction of Juvelook and Lenisna to drive early adoption and clinical confidence.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div>
+              <div class="timeline-company">Implantium India Pvt. Ltd.</div>
+              <div class="timeline-role">Medical Sales Representative</div>
+              <div class="timeline-period">Mar 2022 - Dec 2022</div>
+            </div>
+            <div class="timeline-copy">
+              Supported clinical engagement in the dental field, including demonstrations, professional meetings, and product presentation.
+              <ul>
+                <li>Coordinated meetings with dentists and dental staff.</li>
+                <li>Delivered product demonstrations and clinical presentations on dental implant solutions.</li>
+                <li>Prepared reports and documentation for business and clinical activities.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div>
+              <div class="timeline-company">Thanachart Bank Public Company Limited</div>
+              <div class="timeline-role">Personal Banking Officer / Customer Service Relation</div>
+              <div class="timeline-period">Jan 2016 - Feb 2022</div>
+            </div>
+            <div class="timeline-copy">
+              Built a strong foundation in high-trust customer service, consultation, and relationship management before moving into healthcare-facing commercial roles.
+              <ul>
+                <li>Delivered financial product consultation and service support in a client-sensitive environment.</li>
+                <li>Built durable client relationships and guided customers through important decisions.</li>
+                <li>Developed service discipline that now supports premium stakeholder engagement in medical aesthetics.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="strengths">
+        <div class="section-head">
+          <div>
+            <h2>Core Strengths</h2>
+          </div>
+          <p class="section-kicker">
+            A profile built around scientific clarity, account ownership, and premium relationship management.
+          </p>
+        </div>
+        <div class="grid grid-3">
+          <article class="panel">
+            <h3>Medical & Scientific</h3>
+            <div class="pillbox">
+              <span class="pill">Scientific Communication</span>
+              <span class="pill">Medical Aesthetics</span>
+              <span class="pill">Clinical Education</span>
+              <span class="pill">Healthcare Professional Training</span>
+            </div>
+          </article>
+          <article class="panel">
+            <h3>Commercial & Market</h3>
+            <div class="pillbox">
+              <span class="pill">Key Account Management</span>
+              <span class="pill">Territory Management</span>
+              <span class="pill">Product Positioning</span>
+              <span class="pill">Market Analysis</span>
+            </div>
+          </article>
+          <article class="panel">
+            <h3>Relationship & Brand</h3>
+            <div class="pillbox">
+              <span class="pill">KOL Engagement</span>
+              <span class="pill">Premium Client Experience</span>
+              <span class="pill">Cross-Functional Coordination</span>
+              <span class="pill">Persuasion & Influence</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
       <section class="section">
-        <h2>Core Positioning</h2>
+        <div class="section-head">
+          <div>
+            <h2>Portfolio Exposure</h2>
+          </div>
+          <p class="section-kicker">
+            Hands-on exposure across premium injectable and aesthetic portfolio categories.
+          </p>
+        </div>
         <div class="pillbox">
-          <span class="pill">Medical Communication</span>
-          <span class="pill">Aesthetic Business</span>
-          <span class="pill">KOL Engagement</span>
-          <span class="pill">Luxury Client Experience</span>
-          <span class="pill">Product Launch Support</span>
-          <span class="pill">Territory Management</span>
+          <span class="pill">JALOR HA Dermal Filler</span>
+          <span class="pill">Oxelle Halyx 40 mg</span>
+          <span class="pill">JALOR Re-Style</span>
+          <span class="pill">EPTQ</span>
+          <span class="pill">Juvelook</span>
+          <span class="pill">Lenisna</span>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>Selected Highlights</h2>
+          </div>
+          <p class="section-kicker">
+            Signals that matter for recruiters, hiring managers, and premium medical beauty brands.
+          </p>
+        </div>
+        <div class="grid grid-2">
+          <div class="feature-list">
+            <div class="feature">
+              <strong>Fast progression</strong>
+              Promoted into Product Specialist responsibility within 3 months.
+            </div>
+            <div class="feature">
+              <strong>Stakeholder range</strong>
+              Comfortable across private clinics, academic institutions, and government hospitals.
+            </div>
+            <div class="feature">
+              <strong>Launch support</strong>
+              Experience in product introduction, adoption support, and portfolio feedback loops.
+            </div>
+          </div>
+          <div class="feature-list">
+            <div class="feature">
+              <strong>Scientific and commercial fluency</strong>
+              Effective in both physician-facing communication and growth-oriented business discussion.
+            </div>
+            <div class="feature">
+              <strong>Premium market fit</strong>
+              Strong alignment with wellness-led, aesthetic, and luxury-adjacent brand environments.
+            </div>
+            <div class="feature">
+              <strong>Relationship-led execution</strong>
+              Built on trust, listening, credibility, and polished client handling.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="grid grid-2">
+          <article class="panel">
+            <h2>Education</h2>
+            <h3>Chiang Mai Rajabhat University</h3>
+            <p>Bachelor's Degree, Faculty of Social Education<br />2010 - 2015</p>
+          </article>
+          <article class="panel">
+            <h2>Target Roles</h2>
+            <div class="pillbox">
+              <span class="pill">Medical Science Liaison</span>
+              <span class="pill">Scientific Affairs Executive</span>
+              <span class="pill">Clinical Education</span>
+              <span class="pill">Key Account Manager</span>
+              <span class="pill">Product Specialist</span>
+              <span class="pill">Business Development</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="footer-card">
+          <article class="panel">
+            <h2>Contact</h2>
+            <h3>Ready for professional conversations</h3>
+            <p>
+              This profile is prepared for real recruiter outreach, hiring conversations, and premium brand introductions.
+              Contact details are live and clickable.
+            </p>
+            <div class="contact-list">
+              <div class="contact-item">
+                <span class="contact-label">Location</span>
+                <span class="contact-value">Bangkok, Thailand</span>
+              </div>
+              <div class="contact-item">
+                <span class="contact-label">Email</span>
+                <a class="contact-value" href="mailto:yubkk1991@gmail.com">yubkk1991@gmail.com</a>
+              </div>
+              <div class="contact-item">
+                <span class="contact-label">LinkedIn</span>
+                <a class="contact-value" href="https://www.linkedin.com/in/thanwa-rachatamethakorn-39a5231b1/" target="_blank" rel="noreferrer">thanwa-rachatamethakorn-39a5231b1</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="panel availability">
+            <h2>Professional Fit</h2>
+            <p class="availability-note">
+              Strong fit for roles that require medical communication discipline, account ownership, stakeholder trust,
+              and a refined understanding of the aesthetic and wellness market.
+            </p>
+            <div class="button-row">
+              <a class="button button-primary" href="mailto:yubkk1991@gmail.com">Email Thanwa</a>
+              <a class="button" href="https://www.linkedin.com/in/thanwa-rachatamethakorn-39a5231b1/" target="_blank" rel="noreferrer">View LinkedIn</a>
+            </div>
+          </article>
         </div>
       </section>
     </div>
 
-    <section class="section">
-      <h2>Experience</h2>
-      <div class="item">
-        <h3>KEY AESTHETICS LIMITED</h3>
-        <div class="role">Medical Science Liaison (MSL)</div>
-        <div class="period">Jul 2025 – Present | Bangkok</div>
-        <ul>
-          <li>Support aesthetic business growth through scientific communication, customer insight, and premium client experience.</li>
-          <li>Translate medical aesthetic knowledge into clear, relevant, client-focused solutions.</li>
-          <li>Build trust with diverse stakeholders while supporting performance optimization and long-term relationship growth.</li>
-          <li>Bring structured thinking, active listening, and detail orientation to fast-paced aesthetic and wellness environments.</li>
-        </ul>
-      </div>
-      <div class="item">
-        <div class="role">Key Account Manager</div>
-        <div class="period">Mar 2025 – Jul 2025 | Bangkok</div>
-        <ul>
-          <li>Managed Northern Thailand accounts and regional medical school engagement for JALOR HA Dermal Filler, Oxelle Halyx 40 mg, and JALOR Re-Style.</li>
-          <li>Delivered scientific presentations, supported TALM workshops, webinars, lectures, and training for healthcare professionals.</li>
-          <li>Built strong relationships with KOLs and medical faculty to strengthen clinical confidence and long-term strategic partnership.</li>
-          <li>Successfully supported product listing and Oxelle adoption within government hospitals.</li>
-          <li>Contributed market feedback and launch support for broader portfolio growth planning.</li>
-        </ul>
-      </div>
-      <div class="item">
-        <h3>Aestema Group</h3>
-        <div class="role">Product Specialist</div>
-        <div class="period">Jan 2023 – Feb 2025 | Bangkok</div>
-        <ul>
-          <li>Promoted within 3 months based on commercial performance and product expertise.</li>
-          <li>Helped grow EPTQ market share through technical communication and strategic product positioning.</li>
-          <li>Consistently exceeded sales targets through relationship management, negotiation, and customer-focused selling.</li>
-          <li>Supported launch-phase introduction of Juvelook and Lenisna, helping drive early adoption and clinical confidence.</li>
-        </ul>
-      </div>
-      <div class="item">
-        <h3>Implantium India Pvt. Ltd.</h3>
-        <div class="role">Medical Sales Representative</div>
-        <div class="period">Mar 2022 – Dec 2022 | Bangkok</div>
-        <ul>
-          <li>Coordinated clinical engagement and professional meetings with dentists and dental staff.</li>
-          <li>Delivered product demonstrations and clinical presentations on dental implant solutions.</li>
-          <li>Prepared reports and documentation to support business and clinical activities.</li>
-        </ul>
-      </div>
-      <div class="item">
-        <h3>Thanachart Bank Public Company Limited</h3>
-        <div class="role">Personal Banking Officer / Customer Service Relation</div>
-        <div class="period">Jan 2016 – Feb 2022 | Chiang Rai</div>
-        <ul>
-          <li>Delivered high-quality customer service and financial product consultation in a high-trust environment.</li>
-          <li>Built durable client relationships and supported customer decision-making with professional guidance.</li>
-          <li>Developed a strong service foundation that now supports premium stakeholder engagement in healthcare-facing roles.</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="section">
-      <h2>Selected Highlights</h2>
-      <div class="grid">
-        <div>
-          <ul>
-            <li>Promoted rapidly into specialist responsibility based on performance and product expertise.</li>
-            <li>Experience across medical aesthetics, physician engagement, hospital listing support, and launch execution.</li>
-            <li>Strong in blending clinical credibility with premium customer experience.</li>
-          </ul>
-        </div>
-        <div>
-          <ul>
-            <li>Exposure to private clinic, academic, and government hospital stakeholders.</li>
-            <li>Comfortable in both scientific and commercial conversations.</li>
-            <li>Background spans healthcare-facing business and relationship-driven service roles.</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <h2>Portfolio Exposure</h2>
-      <div class="pillbox">
-        <span class="pill">JALOR HA Dermal Filler</span>
-        <span class="pill">Oxelle Halyx 40 mg</span>
-        <span class="pill">JALOR Re-Style</span>
-        <span class="pill">EPTQ</span>
-        <span class="pill">Juvelook</span>
-        <span class="pill">Lenisna</span>
-      </div>
-    </section>
-
-    <section class="section">
-      <h2>Top Skills</h2>
-      <div class="grid-3">
-        <div class="pillbox">
-          <span class="pill">Scientific Communication</span>
-          <span class="pill">Product Positioning</span>
-          <span class="pill">Medical Aesthetics</span>
-        </div>
-        <div class="pillbox">
-          <span class="pill">KOL Engagement</span>
-          <span class="pill">Territory Management</span>
-          <span class="pill">Market Analysis</span>
-        </div>
-        <div class="pillbox">
-          <span class="pill">Training & Workshops</span>
-          <span class="pill">Account Development</span>
-          <span class="pill">Client Experience</span>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <h2>Education</h2>
-      <p><strong>Chiang Mai Rajabhat University</strong><br/>Bachelor’s Degree, Faculty of Social Education (2010 – 2015)</p>
-    </section>
-
-    <section class="section">
-      <h2>Target Roles</h2>
-      <div class="pillbox">
-        <span class="pill">Medical Science Liaison</span>
-        <span class="pill">Clinical Education</span>
-        <span class="pill">Scientific Affairs Executive</span>
-        <span class="pill">Key Account Manager</span>
-        <span class="pill">Product Specialist</span>
-        <span class="pill">Business Development</span>
-      </div>
-    </section>
-
-    <section class="section">
-      <h2>Personal Brand Positioning</h2>
-      <p class="quote"><strong>Medical x Fashion x Trust</strong><br />Thanwa brings together the precision of medical communication, the commercial instinct of premium brand growth, and the refined aesthetic understanding needed in modern beauty and wellness markets.</p>
-    </section>
-  </div>
+    <p class="footer">Prepared as a GitHub Pages-ready executive profile for professional use.</p>
+  </main>
 </body>
 </html>
