@@ -614,7 +614,7 @@
 
     @page {
       size: A4;
-      margin: 10mm;
+      margin: 7mm;
     }
 
     @media print {
@@ -625,7 +625,7 @@
 
       body {
         background: #ffffff;
-        line-height: 1.28;
+        line-height: 1.2;
         overflow-wrap: anywhere;
         word-break: normal;
         hyphens: auto;
@@ -656,35 +656,35 @@
 
       .hero {
         grid-template-columns: 1.35fr 0.65fr;
-        gap: 10px;
-        padding: 10px;
-        border-radius: 10px;
+        gap: 6px;
+        padding: 6px;
+        border-radius: 8px;
       }
 
       .hero-panel,
       .section,
       .panel,
       .card {
-        padding: 10px;
-        border-radius: 10px;
+        padding: 7px;
+        border-radius: 8px;
       }
 
       .portrait-card {
-        padding: 6px;
+        padding: 4px;
       }
 
       .portrait {
-        min-height: 270px;
+        min-height: 228px;
         object-position: center 15%;
       }
 
       .section-stack {
-        gap: 8px;
-        margin-top: 8px;
+        gap: 5px;
+        margin-top: 5px;
       }
 
       .section {
-        padding: 10px;
+        padding: 7px;
       }
 
       .grid,
@@ -692,13 +692,13 @@
       .grid-3,
       .signature-grid,
       .footer-card {
-        gap: 8px;
+        gap: 5px;
       }
 
       .timeline-item {
-        grid-template-columns: 145px 1fr;
-        gap: 8px;
-        padding: 8px 0;
+        grid-template-columns: 126px 1fr;
+        gap: 6px;
+        padding: 5px 0;
         align-items: start;
       }
 
@@ -725,7 +725,7 @@
       .stats,
       .contact-list,
       .feature-list {
-        gap: 6px;
+        gap: 4px;
       }
 
       .pillbox {
@@ -735,9 +735,9 @@
       .pill {
         white-space: normal;
         text-align: center;
-        line-height: 1.15;
-        padding-top: 3px;
-        padding-bottom: 3px;
+        line-height: 1.05;
+        padding-top: 2px;
+        padding-bottom: 2px;
       }
 
       .contact-item {
@@ -767,18 +767,18 @@
       }
 
       h1 {
-        font-size: 24pt;
+        font-size: 20pt;
         line-height: 0.96;
       }
 
       h2 {
-        font-size: 9pt;
+        font-size: 7.6pt;
         line-height: 1.05;
       }
 
       h3,
       .timeline-role {
-        font-size: 10.5pt;
+        font-size: 8.8pt;
         line-height: 1.08;
       }
 
@@ -788,24 +788,24 @@
       .hero-copy,
       .meta-value,
       .quote-block p {
-        font-size: 8.2pt;
-        line-height: 1.26;
+        font-size: 7.1pt;
+        line-height: 1.16;
       }
 
       .pill {
-        min-height: 22px;
-        font-size: 7pt;
+        min-height: 18px;
+        font-size: 6.2pt;
       }
 
       .timeline-company {
-        font-size: 7.4pt;
+        font-size: 6.4pt;
       }
 
       .timeline-period,
       .meta-label,
       .contact-label {
-        font-size: 6pt;
-        letter-spacing: 0.08em;
+        font-size: 5.5pt;
+        letter-spacing: 0.06em;
       }
 
       .portrait-frame::after,
@@ -814,7 +814,67 @@
       }
 
       .portrait-badge {
-        font-size: 6.2pt;
+        font-size: 5.4pt;
+        padding: 6px 8px;
+        left: 10px;
+        bottom: 10px;
+      }
+
+      .eyebrow {
+        padding: 5px 8px;
+        font-size: 5.6pt;
+      }
+
+      .hero-subtitle {
+        margin-top: 6px;
+        font-size: 7.2pt;
+      }
+
+      .hero-copy {
+        margin-top: 8px;
+      }
+
+      .hero-meta {
+        margin-top: 8px;
+      }
+
+      .meta-card,
+      .stat,
+      .feature,
+      .mini-item,
+      .contact-item {
+        padding: 6px 7px;
+        border-radius: 7px;
+      }
+
+      .section-head {
+        gap: 6px;
+        margin-bottom: 6px;
+      }
+
+      .card h2,
+      .section-head h2 {
+        margin-bottom: 5px;
+      }
+
+      ul {
+        margin-top: 4px;
+        padding-left: 12px;
+      }
+
+      li + li {
+        margin-top: 2px;
+      }
+
+      .quote-block {
+        padding: 8px;
+      }
+
+      .footer-card .panel,
+      .grid .panel,
+      .grid .feature,
+      .section {
+        min-width: 0;
       }
     }
 
