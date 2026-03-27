@@ -14,6 +14,11 @@ Known for translating complex medical aesthetic information into clear, client-f
 
 Currently positioned in **medical affairs within the aesthetic industry**, with hands-on exposure to scientific presentations, KOL engagement, workshops, webinars, hospital listing support, and launch-phase commercial execution.
 
+Professional profile combines:
+- medical credibility for physician-facing communication
+- commercial discipline for account and territory growth
+- polished stakeholder handling suited to premium aesthetic and wellness brands
+
 ---
 
 ## Core Strengths
@@ -88,6 +93,14 @@ Currently positioned in **medical affairs within the aesthetic industry**, with 
 
 ---
 
+## Executive Value
+- Communicates medical and product information with clarity, confidence, and brand awareness
+- Builds trust across KOLs, medical faculty, clinics, and hospital stakeholders
+- Supports portfolio growth through both scientific and commercial conversations
+- Fits environments that require refined presentation, credibility, and relationship-led execution
+
+---
+
 ## Education
 **Chiang Mai Rajabhat University**  
 Bachelor’s Degree, Faculty of Social Education  
@@ -113,6 +126,7 @@ Bachelor’s Degree, Faculty of Social Education
 - Key Account Manager – Aesthetic Medicine
 - Clinical Education / Scientific Affairs Executive
 - Business Development – Premium Medical Beauty Brand
+- Medical Affairs Executive – Aesthetic / Wellness Portfolio
 
 ---
 
@@ -135,3 +149,5 @@ This profile can be published as a simple GitHub Pages site using the paired `in
 **Medical x Fashion x Trust**
 
 Thanwa brings together the precision of medical communication, the commercial instinct of premium brand growth, and the refined aesthetic understanding needed in modern beauty and wellness markets.
+
+This profile is designed to present him as a recruiter-ready candidate for premium medical aesthetics, beauty-tech, wellness, and luxury-adjacent healthcare brands.
