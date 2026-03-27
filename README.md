@@ -143,6 +143,10 @@ Bachelor’s Degree, Faculty of Social Education
 ## GitHub Pages Note
 This profile can be published as a simple GitHub Pages site using the paired `index.html` file in the same package. Upload both files into the root of a repository, then enable GitHub Pages in repository settings.
 
+Included assets for direct use:
+- `Thanwa_Rachatamethakorn_Profile_A4.pdf`: one-page A4 PDF version for download and sharing
+- `print.html`: source layout used to generate the A4 PDF
+
 ---
 
 ## Personal Brand Positioning
